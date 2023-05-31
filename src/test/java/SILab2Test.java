@@ -42,22 +42,22 @@ public class SILab2Test {
     {
         RuntimeException exception;
 
-        // T || F || T
+        // T(user==null)||X||X
         exception = assertThrows(RuntimeException.class, () -> {
             SILab2.function(new User(null, "malta192", null), createListOfUsers(new User("filip", "loozinka", "korisnik@outlook;mk")));});
         assertTrue(exception.getMessage().contains("Mandatory information missing!"));
 
-        // F || T || X
+        // F||T(pass=null)||X
         exception = assertThrows(RuntimeException.class, () -> {
             SILab2.function(new User("makedonija1991", null, "drzava@glasanje.mk"), createListOfUsers(new User("filip", "loozinka", "korisnik@outlook;mk")));});
         assertTrue(exception.getMessage().contains("Mandatory information missing!"));
 
-        // F || F || T
+        // F||F||T(email==null)
         exception = assertThrows(RuntimeException.class, () -> {
             SILab2.function(new User("filipnovprofil15", "filip155", null), createListOfUsers(new User("filip", "loozinka", "korisnik@outlook;mk")));});
         assertTrue(exception.getMessage().contains("Mandatory information missing!"));
 
-        // F || F || F
+        // F||F||F
         assertTrue(SILab2.function(
                 new User("avstrija", "viena!#$5@1", "vienaglaven@grad.com"), createListOfUsers(new User("norveska", "norgenorge$!@@", "oslo.firm@at"),
                         new User("srbija", "b$eog$rad$", "beo_vizija@srbija.sr"))));
