@@ -7,5 +7,5 @@
 ![EveryBranch-Tabela](https://github.com/ilievskyy/SI_lab2_213150/assets/129380121/0aa054b8-0aab-480e-bf80-84e27c1539fa)
 # Тест случаи за Multiple Conditions
 ![Multiple Condition](https://github.com/ilievskyy/SI_lab2_213150/assets/129380121/18d33c6a-855f-4185-9716-83ba0683a5bd)
-
-Објаснување на тестовите има во сликите како и во коментари во кодот.
+# Објаснување за UNIT тестовите
+Објаснување на тестовите има во сликите како и во коментари во кодот во класите соодветно.
