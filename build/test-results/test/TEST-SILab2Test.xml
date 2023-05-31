@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SILab2Test" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-05-31T17:01:07" hostname="DESKTOP-BSR0PLJ" time="0.056">
+  <properties/>
+  <testcase name="testiraj_multiple_conditions()" classname="SILab2Test" time="0.051"/>
+  <testcase name="testiraj_everybranch()" classname="SILab2Test" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
